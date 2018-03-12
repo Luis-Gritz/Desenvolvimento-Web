@@ -1,0 +1,22 @@
+
+/*bloco de regras*/
+/* <seletor css> { */
+/*conjunto de regras*/
+/*chave: valor;*/
+/*na última regra o ; é opcional*/
+
+/*seletor de elemento*/
+p { 
+    color: blue;
+    text-align: center;
+}
+/*seletor de ID*/
+#meuParagrafo {
+    color: lime;
+}
+/*seletor de classe*/
+.destaque {
+    color:darkorange;
+}
+[type="button"]
+{color: blue;}
