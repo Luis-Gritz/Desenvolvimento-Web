@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exemplos CSS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+   <p>Meu texto</p>
+   <p class="destaque">Meu texto</p>
+   <p id="meuParagrafo">Meu texto</p>
+   <p>Meu texto</p>
+   <p>Meu texto</p>
+   <div class="destaque">Meu texto</div>
+   <img src="http://http.cat/404" alt="Não encontrado">   
+
+   <form>
+       <input type="text" />
+       <input type="button" value="Enviar Formulário" />
+       <input class="btn btn-secondary " type="button" value="Enviar Formulário" />
+       <input class="btn btn-primary" type="button"value="Enviar Formulário" />
+   </form>
+
+   <ul>
+       <li>
+           <a href="https://www.google.com.br/">
+        <img src="" alt="">
+            Google
+        </a>
+       </li>
+       <li>
+            <a href="https://www.americanas.com.br/">
+         <svg></svg>
+         Americanas
+        </a>
+        </li>
+   </ul>
+</body>
+</html>
