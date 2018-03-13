@@ -1,0 +1,45 @@
+/*bloco de regras*/
+/* <seletor css> { */
+/*conjunto de regras*/
+/*chave: valor;*/
+/*na última regra o ; é opcional*/
+
+/*seletor de elemento*/
+p { 
+    color: blue;
+    text-align: center;
+}
+/*seletor de ID*/
+#meuParagrafo {
+    color: lime;
+}
+/*seletor de classe*/
+.destaque {
+    color:darkorange;
+}
+img{
+width: 50%;
+height: 50%;
+}
+/*=sigifica*/
+/*procura exatamente o que esta em aspas*/
+
+[type="button"]
+{color: blue;}
+/* significa*/
+/*procura o que inicia entre aspas*/
+[class^="btn"]
+{border: 1px solid greenyellow;}
+/*significa*/
+/*procura o que termina entre aspas*/
+[class$="primary"]
+{border: 1px solid darkred;}
+/*significa*/
+/*procura o que está entre aspas em qualquer lugar*/
+[class*="primary"]
+{border: 1px solid darkred;}
+
+li{list-style-image:url() }
+float:
+
+
